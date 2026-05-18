@@ -12,7 +12,7 @@ import pycountry
 
 
 def getUserId(username, sessionsId):
-    headers = {"User-Agent": "iphone_ua", "x-ig-app-id": "936619743392459"}
+    headers = {"User-Agent": "Instagram 275.0.0.27.98 Android"}
     api = requests.get(
         f'https://i.instagram.com/api/v1/users/web_profile_info/?username={username}',
         headers=headers,
